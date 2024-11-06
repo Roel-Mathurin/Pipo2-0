@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800;900;&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+;
+
+/* Exemple de Media Query pour les petits écrans (téléphones mobiles) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        /* Pourcentage de la largeur de l'écran */
+        max-width: 1200px;
+        /* Taille maximale pour les grands écrans */
+    }
+
+    .img {
+        width: 100%;
+        /* L'image occupe 100% de la largeur de son conteneur */
+    }
+
+    /* Styles spécifiques pour les petits écrans */
+}

@@ -1,0 +1,28 @@
+/* Bouton actif */
+.btn {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  
+  /* Style de base pour la grille */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    padding: 5px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
