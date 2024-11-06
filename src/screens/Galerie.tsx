@@ -44,7 +44,7 @@ export const Slideshow = () => {
           ))} 
         </Slide >
         <Slideshow1 />
-        <Slideshow2 />
+        
       </div>
     )
 }

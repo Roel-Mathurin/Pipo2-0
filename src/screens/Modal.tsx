@@ -23,7 +23,7 @@ function ModalExample() {
     <div>
       <h2>Modal Example</h2>
       
-      <button onClick={openModal} className=''>CONSULTEZ TOUT LES VAINQUEURS DU FESTI PIPO</button>
+      <button onClick={openModal} className='bg-yellow-500 text-white font-semibold py-2 px-4 rounded inline-flex items-center w-60 mt-10'>CONSULTEZ TOUT LES VAINQUEURS DU FESTI PIPO</button>
 
       {isModalOpen && (
         <div className="modal" onClick={handleOutsideClick}>
