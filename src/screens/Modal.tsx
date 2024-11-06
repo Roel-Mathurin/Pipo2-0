@@ -13,8 +13,8 @@ function ModalExample() {
     setIsModalOpen(false);
   };
 
-  const handleOutsideClick = (event) => {
-    if (event.target.className === 'modal') {
+  const handleOutsideClick = (event: React.MouseEvent<HTMLDivElement>) => {
+    if ((event.target as HTMLDivElement).className === 'modal') {
       closeModal();
     }
   };
